@@ -1,0 +1,30 @@
+
+.heroBox{
+    max-width: 768px;
+    height: 400px;
+    margin-top: 65px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: linear-gradient(rgba(46, 125, 94, 0.8), rgba(46, 125, 94, 0.8)),
+    url(../images/AboutUs.png);
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.heroTexteBox{
+    width: 300px;
+    margin-top: 40px;
+}
+
+.heroText{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+
+.heroTextSpan{
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 30px;
+}

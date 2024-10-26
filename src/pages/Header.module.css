@@ -1,0 +1,39 @@
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(41, 59, 41);
+    padding-top: 10px;
+    background-color: #2E7D5E;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999999;
+}
+
+.headerLogo{
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 30px;
+}
+
+.logoBox{
+    margin-left: 15px;
+    margin-right: 40px;
+}
+
+.menuSvgBox{
+    margin-right: 15px;
+}
+
+.btnMenu{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    margin-right: 0;
+    cursor: pointer;
+}

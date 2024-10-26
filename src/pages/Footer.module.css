@@ -1,0 +1,25 @@
+
+.footerBox{
+    background-color: #2E7D5E;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.footerTextBox{
+    padding-top: 30px;
+    margin-right: 100px;
+    width: 160px;
+}
+
+.footerText{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 22px;
+}
+
+.smallSpanText{
+    font-size: 15px;
+}
