@@ -13,6 +13,17 @@ const Header = () => {
                     <use xlinkHref="/public/vite.svg#icon-menu" />
                 </svg>
                 </button>
+            <ul className={style.HeaderLinksList}>
+                <li>
+                    <Link className={style.headerLinks}>O nas</Link>
+                </li>
+                <li>
+                    <Link className={style.headerLinks}>FAQ</Link>
+                </li>
+                <li>
+                    <Link className={style.headerLinks}>Kim mogę zacząć pracować?</Link>
+                </li>
+            </ul>
             </div>
         </header>
     )

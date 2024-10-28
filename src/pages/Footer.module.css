@@ -5,12 +5,14 @@
     height: 300px;
     display: flex;
     justify-content: center;
-}
+}   
 
 .footerTextBox{
     padding-top: 30px;
     margin-right: 100px;
     width: 160px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footerText{
@@ -22,4 +24,23 @@
 
 .smallSpanText{
     font-size: 15px;
+}
+
+.footerItem{
+    border: 1px solid white;
+    max-width: 226px;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.footerList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.footerItemLink{
+    color: white;
 }

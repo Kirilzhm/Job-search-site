@@ -1,26 +1,76 @@
-
-.aboutUsBox{
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.aboutUsBox {
+    width: 100%;;
     background-color: #f5f5f5;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.aboutUsTextBox{
+.aboutUsSmallBox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 350px;
+    width: 100%;
+    justify-content: center;
+}
+
+.aboutUsTextBox {
     width: 300px;
     background-color: white;
     border-radius: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 20px;
+    padding: 25px;
     min-height: 400px;
-    box-shadow: 6px 6px 6px rgba(128, 128, 128, 0.5);
+    box-shadow: 6px 6px 10px rgba(128, 128, 128, 0.2);
 }
 
-.aboutUsText{
+.firstTextAboutUs{
+    color: #2E7D5E;
+}
+
+.aboutUsText {
     font-family: 'Open Sans', sans-serif;
-    font-size: 22px;
-    line-height: 35px;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #333333;
+}
+
+.lastTextAboutUs {
+    font-size: 24px;
+    font-weight: 700;
+    color: #2E7D5E;
+    margin-top: 10px;
+    display: block;
+}
+
+.aboutUsSecondText {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #2E7D5E;
+    margin-bottom: 15px;
+}
+
+.aboutUsGoodList {
+    padding: 0;
+    list-style: none;
+}
+
+.aboutUsItemText {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333333;
+    margin-top: 15px;
+    line-height: 1.4;
+}
+
+.aboutUsItemSmallText {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.5;
+    margin: 8px 0;
 }
