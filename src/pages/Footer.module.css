@@ -27,10 +27,7 @@
 }
 
 .footerItem{
-    border: 1px solid white;
-    max-width: 226px;
     padding: 8px;
-    border-radius: 20px;
 }
 
 .footerList{
@@ -43,4 +40,7 @@
 
 .footerItemLink{
     color: white;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 20px;
 }
