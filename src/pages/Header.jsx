@@ -10,7 +10,7 @@ const Header = () => {
             <div className={style.menuSvgBox}>
                 <button className={style.btnMenu}>
                 <svg width="30" height="30">
-                    <use xlinkHref="/public/vite.svg#icon-menu" />
+                    <use xlinkHref="vite.svg#icon-menu" />
                 </svg>
                 </button>
             <ul className={style.HeaderLinksList}>

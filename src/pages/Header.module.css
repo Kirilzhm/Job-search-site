@@ -39,7 +39,7 @@
 .btnMenu{
     border: none;
     background-color: transparent;
-    padding: 0;
+    padding: auto;
     margin-right: 0;
     cursor: pointer;
 }
