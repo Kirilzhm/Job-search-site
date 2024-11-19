@@ -28,3 +28,10 @@
     font-family: 'Monsterrat', sans-serif;
     font-size: 30px;
 }
+
+@media screen and (min-width: 768px) {
+    .heroBox{
+        max-width: 1080px;
+        height: 550px;
+    }
+}

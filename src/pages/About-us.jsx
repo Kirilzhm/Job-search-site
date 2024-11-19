@@ -27,10 +27,12 @@ const AboutUs = () => {
                     </ul>
                 </li>
                 <li className={styles.aboutUsTextBox}>
-                    <h3 className={styles.aboutUsText}>Nasz zespół składa się z profesjonalistów, którzy dbają o Twoje potrzeby. Naszym celem jest stworzenie dla Ciebie najlepszych warunków pracy.</h3>
+                    <h3 className={styles.aboutUsSecondText}>Nasze profesjonaliśi</h3>
+                    <p className={styles.aboutUsItemText}>Nasz zespół składa się z profesjonalistów, którzy dbają o Twoje potrzeby. Naszym celem jest stworzenie dla Ciebie najlepszych warunków pracy.</p>
                 </li>
                 <li className={styles.aboutUsTextBox}>
-                    <h3 className={styles.aboutUsText}>Działamy z pasją i zaangażowaniem, ponieważ wierzymy, że każdy zasługuje na godną pracę. Z KOORDYNATOR-em osiągniesz więcej!</h3>
+                    <h3>Każdy może znaleść pracę</h3>
+                    <p className={styles.aboutUsText}>Działamy z pasją i zaangażowaniem, ponieważ wierzymy, że każdy zasługuje na godną pracę. Z KOORDYNATOR-em osiągniesz więcej!</p>
                 </li>
             </ul>
         </div>
