@@ -1,25 +1,34 @@
-import Header from "./pages/Header/Header"
-import Hero from "./pages/Hero"
-import AboutUs from "./pages/About-us/About-us"
-import Footer from "./pages/Footer"
-import Modal from "./components/Modal/Modal"
-import { Routes, Route } from "react-router-dom"
-import { useLocation } from "react-router-dom"
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import Header from "./pages/Header/Header";
+import Hero from "./pages/Hero";
+import AboutUs from "./pages/About-us/About-us";
+import Footer from "./pages/Footer";
+import Modal from "./components/Modal/Modal";
 
 function App() {
-    const location = useLocation();
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const navigate = useNavigate();
 
-    return(
+    const openModal = () => {
+        setIsModalOpen(true);
+        navigate('/modal');
+    };
+
+    const closeModal = () => {
+        setIsModalOpen(false);
+        navigate(-1);
+    };
+
+    return (
         <div>
-                {location.pathname !== "/modal" && <Header />}
-                <Routes>
-                    <Route path="/modal" element={<Modal />} />
-                </Routes>
-                <Hero/>
-                <AboutUs/>
-                <Footer/>
+            {!isModalOpen && <Header openModal={openModal} />}
+            <Modal isOpen={isModalOpen} onClose={closeModal} />
+            <Hero />
+            <AboutUs />
+            <Footer />
         </div>
-    )
+    );
 }
-  
-export default App
+
+export default App;

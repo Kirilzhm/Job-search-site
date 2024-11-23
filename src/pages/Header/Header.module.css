@@ -49,9 +49,12 @@
     transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out;
 }
 
-.btnSvg{
-    stroke: #FFFFFF;
-    color: #FFFFFF;
+.btnMenu{
+    stroke-width: 2px;
+  background-color: inherit;
+  stroke: #fafafa;
+  border: none;
+  padding: 0;
 }
 
 @media screen and (min-width: 768px) {

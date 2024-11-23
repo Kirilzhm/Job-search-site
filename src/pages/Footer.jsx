@@ -11,10 +11,10 @@ const Footer = () => {
            <div>
            <ul className={styles.footerList}>
                 <li className={styles.footerItem}>
-                    <a className={styles.footerItemLink} href="mailto: 111@gmail.com">zlatobogatoblablabla@gmail.com</a>
+                    <a className={styles.footerItemLink} href="mailto: 111@gmail.com">blablabla@gmail.com</a>
                 </li>
                 <li className={styles.footerItem}>
-                    <a className={styles.footerItemLink} href="tel: +48 727 839 366">tel: +48 727 839 366</a>
+                    <a className={styles.footerItemLink} href="tel: +11 111 111 111">tel: +11 111 111 111</a>
                 </li>
             </ul>
            </div>
