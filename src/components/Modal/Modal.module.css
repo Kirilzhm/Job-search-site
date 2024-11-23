@@ -30,7 +30,7 @@
   width: 34px;
   height: 34px;
   border: none;
-  background-color: transparent;
+  background-color: inherit;
   padding: 0;
   margin-right: 0;
   cursor: pointer;
