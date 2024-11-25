@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Header from "./pages/Header/Header";
-import Hero from "./pages/Hero";
-import AboutUs from "./pages/About-us/About-us";
-import Footer from "./pages/Footer";
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
+import AboutUs from "./components/About-us/About-us"
+import Footer from "./components/Footer/Footer";
 import Modal from "./components/Modal/Modal";
 
 function App() {

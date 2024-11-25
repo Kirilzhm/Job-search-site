@@ -27,10 +27,9 @@
 }
 
 .closeBtn{
-  width: 34px;
-  height: 34px;
-  border: none;
+  stroke-width: 2px;
   background-color: inherit;
+  border: none;
   padding: 0;
   margin-right: 0;
   cursor: pointer;
